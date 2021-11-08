@@ -1,4 +1,4 @@
 # 2nd-project
 # TO DO right now
-navigation tags at header<br>
+restyle nav links at header<br>
 fill with info
