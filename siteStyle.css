@@ -5,6 +5,9 @@ html {
     font-size: 24px;
     background-color: rgb(195, 230, 250);
 }
+#page-wrapper {
+    position: relative;
+  }
 .logoImage {
     display: flex;
     justify-items: flex-start;
@@ -14,12 +17,18 @@ html {
 }
 .headerNavigators {
     display: flex;
-    align-items: flex-end;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    word-spacing: 20px;
+    text-decoration: none;
+}
+.navBox {
+    margin-left: auto;
+    width: 600px;
+    justify-content: flex-end;
 }
 
-li {
+ul {
     display: flex;
-    justify-items: flex-end;
+    box-sizing: border-box;
+    list-style: none;
 }
