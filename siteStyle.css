@@ -5,36 +5,41 @@ html {
     font-size: 24px;
     background-color: rgb(238, 238, 238);
 }
-#page-wrapper {
-    position: relative;
-  }
+
 .logoImage {
-    display: flex;
-    justify-items: flex-start;
-    flex-direction: row;
-    float: left;
-    width: 300px;
+    display: inline;
+    width: 250px;
 }
 .headerNavigators {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     text-decoration: none;
+    float: right;
+    max-width: 100%;
+    width: 100%;
 }
-.navBox {
-    margin-left: auto;
-    width: 600px;
-    justify-content: flex-end;
+#navBox {
+    display: inline-block;
+    width: 40%;
+    margin-left: 46%;
+    margin-bottom: 48px;
 }
-
 ul {
-    display: flex;
     box-sizing: border-box;
     list-style: none;
 }
 a {
     text-decoration: none;
     color: black;
+}
+@media (max-width:800px) {
+    .flexContainer {
+        display: flex;
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+        float: none;
+    }
 }
 .divFlexbox {
     display: flex;
