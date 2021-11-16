@@ -32,26 +32,22 @@ a {
     text-decoration: none;
     color: black;
 }
-@media (max-width:800px) {
-    .flexContainer {
-        display: flex;
-        width: 100%;
-        max-width: 700px;
-        margin: auto;
-        float: none;
-    }
-}
 .divFlexbox {
     display: flex;
+    margin: auto;
+    max-width: 640px;
+    width: 80%;
 }
 .iconColor {
-color: rgb(63, 119, 58);
+    color: rgb(63, 119, 58);
 }
 .textColor {
     display: flex;
+    box-sizing: border-box;
     justify-content: flex-start;
     align-content: center;
     color: black;
+    padding-left: 25px;
     font-family: Poppins;
     font-size: 18px;
     margin:auto;
