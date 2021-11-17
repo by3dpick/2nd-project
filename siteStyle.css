@@ -41,14 +41,22 @@ a {
 .iconColor {
     color: rgb(63, 119, 58);
 }
+#iconAlign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
 .textColor {
+    color: black;
+    font-family: Poppins;
+    font-size: 18px;
+}
+.textPadding {
     display: flex;
     box-sizing: border-box;
     justify-content: flex-start;
     align-content: center;
-    color: black;
     padding-left: 25px;
-    font-family: Poppins;
-    font-size: 18px;
     margin:auto;
 }
