@@ -1,6 +1,6 @@
 # 2nd-project
 # TO DO right now
-fill info
-center align icons
+fill info<br>
+center align icons<br>
 @media for lower resolutions
-<img src="https://i.imgur.com/hCcE0wR.png">
+<img src="https://i.imgur.com/wrr1kRa.png">
